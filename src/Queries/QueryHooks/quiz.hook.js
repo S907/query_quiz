@@ -2,8 +2,7 @@ import {QUIZ_DATA} from '../QueryKeys/quiz.key';
 import clientApi, { request } from '../../utils/axios-utils'
 import { useQuery } from 'react-query';
 // import axios from 'axios';
-const staleTime = 300000;
-const cacheTime = 600000;
+//Add cachetime, staleTime
 const catchRequest = ()=>{
 //     return request({url:'/data'})
 //     return axios.get(`http://localhost:3000/data`)
